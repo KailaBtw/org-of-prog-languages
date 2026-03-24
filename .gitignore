@@ -5,3 +5,6 @@
 *.scm~
 *.scm#*
 .#*.scm
+
+# dont include exams
+exams/
