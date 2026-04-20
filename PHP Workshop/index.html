@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Text input fields</h2>
+
+<h3>GET Form</h3>
+
+<!-- GET form -->
+<form action="process_get.php" method="get">
+    <label for="firstname">First Name:</label><br>
+    <input type="text" id="firstname" name="firstname" required><br><br>
+
+    <label for="lastname">Last Name:</label><br>
+    <input type="text" id="lastname" name="lastname" required><br><br>
+
+    <label for="address">Address:</label><br>
+    <input type="text" id="address" name="address" required><br><br>
+
+    <button type="submit">Submit with GET</button>
+</form>
+
+<h3>POST Form</h3>
+
+<!-- POST form -->
+<form action="process_post.php" method="post">
+    <label for="firstname2">First Name:</label><br>
+    <input type="text" id="firstname2" name="firstname2" required><br><br>
+    
+    <label for="lastname2">Last Name:</label><br>
+    <input type="text" id="lastname2" name="lastname2" required><br><br>
+
+    <label for="address2">Address:</label><br>
+    <input type="text" id="address2" name="address2" required><br><br>
+
+    <button type="submit">Submit with POST</button>
+</form>
+
+</body>
+</html>
